@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\EncLib">
+      <UniqueIdentifier>{5aabc9ae-3bc7-43c6-8cf7-11b4330659d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scan">
+      <UniqueIdentifier>{8193359c-12a5-432d-9f8d-52e0486bea7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NtFunctions">
+      <UniqueIdentifier>{a98fae42-993e-49cf-88b6-0be384e898ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Xor">
+      <UniqueIdentifier>{b89f1bea-892b-4141-bfca-505c93f39344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SendLib">
+      <UniqueIdentifier>{c067dfae-a812-4398-818a-146d2d52d243}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncLib\Enc.h">
+      <Filter>Source Files\EncLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Scan\Pattern.h">
+      <Filter>Source Files\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="Scan\Scan.h">
+      <Filter>Source Files\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="NtFunctions.h">
+      <Filter>Source Files\NtFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Scan\WindowOperations..h">
+      <Filter>Source Files\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor\Xor.h">
+      <Filter>Source Files\Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitFunctions.h">
+      <Filter>Source Files\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="SendLib\SendLib.h">
+      <Filter>Source Files\SendLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EncLib\Enc.cpp">
+      <Filter>Source Files\EncLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scan\Pattern.cpp">
+      <Filter>Source Files\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="Scan\Scan.cpp">
+      <Filter>Source Files\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="NtFunctions.cpp">
+      <Filter>Source Files\NtFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Scan\WindowOperations.cpp">
+      <Filter>Source Files\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitFunctions.cpp">
+      <Filter>Source Files\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="SendLib\SendLib.cpp">
+      <Filter>Source Files\SendLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
